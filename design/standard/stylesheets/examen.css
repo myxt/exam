@@ -1,0 +1,185 @@
+/* VIEW  when you are taking the exam*/
+
+body 
+{
+	font-size: 12px;
+}
+
+#content_wrapper {
+    display:block;
+    float:left;
+    width: 600px;
+    margin-right: 90px;
+    padding: 45px 20px 30px 20px;
+}
+
+.exam-view div.question
+{
+	border: 1px solid #CACACA;
+	background-color: #F8F8F8;
+	padding: 0.7em;
+	margin: 0em;
+}
+#exam-view div.buttons
+{
+	padding: 0.7em;
+	margin: 0em;
+}
+#exam-view div.question
+{
+	border: 1px solid #CACACA;
+	background-color: #FFF;
+	padding: 0.7em;
+	margin: 0em;
+}
+#exam-view div.question div.answer
+{
+	width:95%;
+	border: 1px solid #CACACA;
+	background-color: #F8F8F8;
+	padding: 0.7em;
+	margin: 0em;
+}
+#exam-view div.question div.answer textarea
+{
+	height:1.5em;
+	margin: 0em;
+}
+#exam-view div.text
+{
+	border: 1px solid #CACACA;
+	background-color: #FFF;
+	padding: 0.7em;
+	margin: 0em;
+}
+
+#exam-view div.pagebreak
+{
+	border: 1px solid #CACACA;
+	background-color: #FFF;
+	padding: 0.7em;
+	margin: 0em;
+}
+#exam-view div.group
+{
+	border: 3px solid #CACACA;
+	background-color: #FFF;
+	padding: 0.7em;
+	margin: 0em;
+}
+#exam-view div.group div.children
+{
+	width:95%;
+}
+div.listbutton {
+	display: block;
+	float: right;
+}
+
+/* RESULT */
+
+
+#exam-result
+{
+	border: 1px solid #CACACA;
+	background-color: #F8F8F8;
+	padding: 0.7em;
+	margin: 0em;
+}
+#exam-result div.passed,
+#exam-result div.failed 
+{
+
+}
+#exam-result div.passed div.headline
+{
+	
+	font-size: 26px;
+}
+#exam-result div.failed div.headline
+{
+	
+	font-size: 26px;
+	color: red;
+}
+#exam-result div.question
+{
+	border: 1px solid #CACACA;
+	padding: 0.7em;
+	margin: 0em;
+}
+#exam-result div.text
+{
+	border: 1px solid #CACACA;
+	background-color: #FFF;
+}
+#exam-result div.answer 
+{
+    position: relative;
+    padding: 0 0 0 20px;
+}
+
+#exam-result div.answer div.icon
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 0;
+    text-indent: -99999px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#exam-result div.answer div.icon.correct
+{
+	background:url(../images/correct.png) no-repeat;
+	background-size: 18px 16px;
+}
+#exam-result div.answer div.icon.incorrect
+{
+	background:url(../images/incorrect.png) no-repeat;
+	background-size: 18px 18px;
+}
+/* Survey */
+#exam-result div.survey-bar
+{
+	background:url(../images/surveybar.gif) repeat;
+}
+/* Error */
+#exam-error {
+	border: 1px solid #CACACA;
+	padding: 0.7em;
+	margin: 0em;
+	background-color: #FFCCCC;
+}
+#exam-error div.error-message {
+	color: red;
+}
+div.class-exam div.exam-message {
+	border: 1px solid #CACACA;
+	padding: 0.7em;
+	margin: 0em;
+	background-color: #FFCCCC;
+}
+
+/* social media on results page */
+#sharebox img                                   { cursor:pointer; }
+#sharebox form {
+        margin-top:1em;
+}
+#sharebox form#mail-results label {
+        display:block; float:left; width:50px; padding-top:.5em;
+}
+
+.alert form
+{
+    margin: 0;
+}
+
+input[type=image]
+{
+    width: auto;
+}
